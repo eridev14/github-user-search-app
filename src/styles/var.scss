@@ -1,0 +1,20 @@
+:root {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgba(255, 255, 255, 0.87);
+    --bg-color-main: #141c30;
+    --color-button: #0079FE;
+    --bg-color-card: #1f2a48;
+    --text-color-prim: #ffffff;
+    --text-color: #ffffffc7;
+    --caret-color: white;
+    --font-sizeM: .9rem;
+    transition: color .5s;
+}
+
+[data-theme='light'] {
+    --bg-color-main: #e5ebf8;
+    --bg-color-card: #fefefeea;
+    --text-color-prim: #000000f1;
+    --text-color: #000000e1;
+    --caret-color: rgba(5, 5, 5, 0.877);
+}
